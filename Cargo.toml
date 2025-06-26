@@ -1,0 +1,8 @@
+[package]
+name = "embeddings_test"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+llama-cpp-2 = {git = "https://github.com/utilityai/llama-cpp-rs.git", rev = "3cbd42ebe98e5ebcd2e995ee7e5b75fb053c0ae2"}
+anyhow = "1.0"
